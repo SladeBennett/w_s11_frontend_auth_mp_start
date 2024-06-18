@@ -59,7 +59,7 @@ This endpoint allows you to GET a list of Hollywood stars by sending a valid tok
 
 Inside [AuthForm.js](./frontend/components/AuthForm.js) lives the one form used to log in and register
 
-1. Import `axios` from Axios and the `useNavigate` hook from React Router
+$1. Import `axios` from Axios and the `useNavigate` hook from React Router
 2. Create a submit handler for the form and wire it to the JSX
 3. The component tracks in state whether the mode is login or register
 4. On register, POST username and password to the proper endpoint and set the welcome message (or error) in component state
